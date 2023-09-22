@@ -5,7 +5,7 @@
 getwd()
 
 # Set working directory 
-setwd("/Users/hannahfrank/StatsI_Fall2023_prep")
+setwd("D:/GitHubSpace/StatsI_Fall2023")
 getwd()
 
 ### Research Question -----------
@@ -40,7 +40,7 @@ df$income
 length((df$income))
 sqrt(length((df$income)))
 sqrt(19)
-sd(df$income)/sqrt(length((df$income)))
+(df$income)/sqrt(length((df$income)))
 
 ### Education ###
 hist(df$edu) # Distribution
@@ -115,3 +115,4 @@ legend(1000, 8, # x and y position of legend
        col=c("black","red"),
        pch=1) # Marker type (1 is default)
 dev.off()
+
