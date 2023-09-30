@@ -57,7 +57,8 @@ se <- sample_sd/sqrt(n)
 t_value <- (mean(y)-100)/(se)
 p <- pt(t_value,df = n-1,lower.tail = FALSE)
 t.test(y, mu = 100,  alternative = "greater")
-#p_value == 0.7215 > 0.05, null hypothesis rejected.
+?t
+#p_value == 0.7215 > 0.05 can't reject null hypothesis that mean is equal or less than 100
 
 #####################
 # Problem 2
